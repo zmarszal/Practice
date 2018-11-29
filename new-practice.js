@@ -12,7 +12,7 @@ const Wookie = function(name) {
     this.galaxy = 'Star Wars';
     this[name] = name;
     console.log('this keyword context after property assignment', this);
-    }
+    };
     
     const chewbacca = new Wookie('Chewbacca'); // note: since a function parameter is defined, parentheses are necessary to invoke `Wookie`.
     

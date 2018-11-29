@@ -25,3 +25,5 @@ pixel.togglePower();
 
 console.log(iPhone.power);
 console.log(pixel.power);
+
+console.dir(iPhone);

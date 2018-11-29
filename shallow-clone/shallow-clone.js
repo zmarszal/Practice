@@ -8,7 +8,7 @@ const deliciousFoods = {
   hungry: 'Cheeseburger',
   veryHungry: 'Pizza',
   dessert: 'Cheesecake'
-}
+};
 
 //
 

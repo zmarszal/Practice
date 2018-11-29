@@ -1,8 +1,8 @@
 const isFunction = typeof reverseString === 'function';
-const x = 'abcd'
+const x = 'eabcd'
 const returnIsString = typeof reverseString(x) === 'string';
 const paramIsString = typeof x === 'string';
-const expectedValue = 'dcba';
+const expectedValue = 'edcba';
 const correctOutput = expectedValue === reverseString(x);
 
 console.log(`The function reverseString is a function: ${isFunction}`);
