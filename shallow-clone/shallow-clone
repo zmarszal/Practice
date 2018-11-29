@@ -1,0 +1,17 @@
+const healthyFoods = {
+  vegetable: 'carrot',
+  snack: 'nuts',
+  fruit: 'apple'
+};
+
+const deliciousFoods = {
+  hungry: 'Cheeseburger',
+  veryHungry: 'Pizza',
+  dessert: 'Cheesecake'
+}
+
+//
+
+let foods = {};
+
+foods = Object.assign(foods, healthyFoods, deliciousFoods);
